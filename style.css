@@ -46,3 +46,9 @@ a {
 li {
     margin-bottom: 12px;
 }
+
+@media (max-width: 767px) {
+    .col-md-6 {
+      width: 100%;
+    }
+  }
