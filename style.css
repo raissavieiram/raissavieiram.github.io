@@ -1,15 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
 
 body {
-    width: 80vw;
     font-family: 'Instrument Sans', sans-serif;
-    margin: auto;
     background-color: #EDEDED;
+}
+
+header {
+    overflow: auto;
+    margin: auto;
+}
+
+nav {
+    padding: 15px;
+    float: left;
 }
 
 .geral.col-md-12 {
     justify-content: center;
     text-align: center;
+    float: left;
+}
+
+section {
+    width: 80vw;
+    margin: auto;
+}
+
+.menuFechado {
+    display: none;
 }
 
 .row {
@@ -47,8 +65,32 @@ li {
     margin-bottom: 12px;
 }
 
+.linkCurriculo {
+    text-decoration: none;
+}
+
+
+.fa-solid.fa-bars {
+    font-size: 30px;
+}
+
+.fa-solid.fa-bars:hover {
+    cursor: pointer;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
 @media (max-width: 767px) {
     .col-md-6 {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
