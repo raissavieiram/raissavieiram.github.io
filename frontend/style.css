@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #EDEDED;
+}
+
+header {
+    overflow: auto;
+    margin: auto;
+}
+
+nav {
+    padding: 15px;
+    float: left;
+}
+
+.geral.col-md-12 {
+    justify-content: center;
+    text-align: center;
+    float: left;
+}
+
+section {
+    width: 80vw;
+    margin: auto;
+}
+
+.menuFechado {
+    display: none;
+}
+
+.row {
+    margin-bottom: 20px
+}
+
+.geral.row {
+    margin-bottom: 40px
+}
+
+.projeto.col-md-6,
+.curso.col-md-6 {
+    padding-right: 40px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {
+    border-bottom: 1.5px solid grey;
+}
+
+p {
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+.linkCurriculo {
+    text-decoration: none;
+}
+
+
+.fa-solid.fa-bars {
+    font-size: 30px;
+}
+
+.fa-solid.fa-bars:hover {
+    cursor: pointer;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        width: 100%;
+    }
+}
